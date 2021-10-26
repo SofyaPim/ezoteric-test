@@ -1,0 +1,1 @@
+ ## https://sofyapim.github.io/ezoteric-test/ezoterika/index.html
