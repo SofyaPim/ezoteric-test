@@ -871,5 +871,31 @@ table {
     width: 90%;
     padding-left: 30px;
   }
+  .wrapper .maraphon-scheme .day .day-head h3 {
+    font-size: 18px;
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .wrapper .header .header-items .header-logo p {
+    width: 90%;
+    font-size: 16px;
+  }
+  .wrapper .header .header-items h1 {
+    font-size: 28px;
+  }
+  .wrapper .header .header-items p {
+    font-size: 16px;
+  }
+  .wrapper .header .header-items .maraphon-date {
+    width: 80%;
+  }
+  .wrapper .stages h3 {
+    font-size: 24px;
+  }
+  .wrapper h2 {
+    font-size: 24px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
