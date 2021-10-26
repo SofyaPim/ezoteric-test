@@ -1,0 +1,875 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Questrial&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 100vw;
+  max-width: 1920px;
+  overflow: hidden;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper .line {
+  width: 83.15px;
+  height: 2px;
+  margin-bottom: 26px;
+  background: #FAD264;
+}
+
+.wrapper h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper .header {
+  width: 100%;
+  height: 860px;
+  background: url("../images/main-back.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrapper .header .header-items {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.wrapper .header .header-items .header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 36px;
+}
+
+.wrapper .header .header-items .header-logo img {
+  margin-top: -16px;
+  margin-right: 16px;
+}
+
+.wrapper .header .header-items .header-logo p {
+  width: 100%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.wrapper .header .header-items h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  margin-bottom: 24px;
+}
+
+.wrapper .header .header-items h1 span {
+  color: #FAD264;
+}
+
+.wrapper .header .header-items .line {
+  background: #FAD264;
+}
+
+.wrapper .header .header-items p {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 400;
+  width: 90%;
+  color: #FFFFFF;
+}
+
+.wrapper .header .header-items .reasons {
+  width: 100%;
+  padding-top: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .header .header-items .reasons .reason {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 285px;
+  height: 125px;
+  background-color: #E5E5E5;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.wrapper .header .header-items .reasons .reason img {
+  position: absolute;
+  left: 45%;
+  top: -20px;
+}
+
+.wrapper .header .header-items .reasons .reason p {
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #000000;
+}
+
+.wrapper .header .header-items .maraphon-date {
+  padding-top: 40px;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .header .header-items .maraphon-date img {
+  width: 26.84px;
+  height: 30px;
+}
+
+.wrapper .header .header-items .maraphon-date p {
+  font-size: 20px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.wrapper .header .header-items .maraphon-date p span {
+  color: #FCE559;
+}
+
+.wrapper .header .header-items .header-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 55%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.wrapper .header .header-items .header-btns .btn {
+  width: 254px;
+  height: 56px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  -webkit-transition: background .3s ease-in;
+  transition: background .3s ease-in;
+}
+
+.wrapper .header .header-items .header-btns .btn:hover {
+  background: #FAD264;
+}
+
+.wrapper .header .header-items .header-commit {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 24px;
+  /* or 171% */
+  text-align: center;
+}
+
+.wrapper .header .header-items .subscribe-item {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 47px;
+}
+
+.wrapper .header .header-items .subscribe-item img {
+  width: 58px;
+  height: 54.13px;
+}
+
+.wrapper .header .header-items .subscribe-item p {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.wrapper .maraphon-scheme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 90px;
+}
+
+.wrapper .maraphon-scheme h2 {
+  color: #320B61;
+}
+
+.wrapper .maraphon-scheme .line {
+  background: #E130E3;
+}
+
+.wrapper .maraphon-scheme .day {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  width: 1100px;
+  margin-bottom: 100px;
+}
+
+.wrapper .maraphon-scheme .day .day-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.wrapper .maraphon-scheme .day .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.wrapper .maraphon-scheme .day .day-head {
+  height: 89px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .maraphon-scheme .day .day-head h3 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper .maraphon-scheme .day .day-head.yellow {
+  width: 284px;
+  background: #FAD264;
+  color: #42196D;
+  margin: 0;
+}
+
+.wrapper .maraphon-scheme .day .day-head.purple {
+  width: 826px;
+  background: #320B61;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.wrapper .maraphon-scheme .day .day-img {
+  width: 284px;
+}
+
+.wrapper .maraphon-scheme .day .day-img img {
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.wrapper .maraphon-scheme .day .day-content {
+  width: 826px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.wrapper .maraphon-scheme .day .day-content h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+}
+
+.wrapper .maraphon-scheme .day .day-content .list-star {
+  list-style: url("/ezoterika/images/list-style-star.png");
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  width: 80%;
+  margin: 0 auto;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  margin-bottom: 33px;
+}
+
+.wrapper .maraphon-scheme .day .day-content .list-star li span {
+  font-weight: bold;
+}
+
+.wrapper .maraphon-scheme .day .day-content .list-star p {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.wrapper .maraphon-scheme .day .day-content .list-disc {
+  list-style-type: disc;
+  color: #42196D;
+  width: 90%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper .maraphon-scheme .day .day-content .list-disc p {
+  color: #29242C;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  margin-bottom: 16px;
+}
+
+.wrapper .getin-if {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #42196D;
+  padding-bottom: 94px;
+}
+
+.wrapper .getin-if h2 {
+  padding-top: 82px;
+  color: #FAD264;
+}
+
+.wrapper .getin-if .card-wrapper {
+  width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .getin-if .card-wrapper .card {
+  width: 349px;
+}
+
+.wrapper .getin-if .card-wrapper .card .card-content {
+  background: #FFFFFF;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  height: 480px;
+}
+
+.wrapper .getin-if .card-wrapper .card .card-content h4 {
+  padding-top: 33px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #292841;
+  mix-blend-mode: normal;
+  padding-bottom: 24px;
+}
+
+.wrapper .getin-if .card-wrapper .card .card-content p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #292841;
+  mix-blend-mode: normal;
+  padding-bottom: 24px;
+}
+
+.wrapper .getin-if .card-wrapper .card .card-content .arrow {
+  position: absolute;
+  bottom: -20px;
+  left: 43%;
+}
+
+.wrapper .getin-if .card-wrapper .card p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+
+.wrapper .getin-if .card-wrapper .card ul {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 90%;
+  list-style: url("/ezoterika/images/card-list-marker.png");
+}
+
+.wrapper .getin-if .card-wrapper .card ul p {
+  margin-bottom: 16px;
+}
+
+.wrapper .stages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #F6F6F6;
+}
+
+.wrapper .stages h2 {
+  color: #42196D;
+}
+
+.wrapper .stages .line {
+  background: #E130E3;
+}
+
+.wrapper .stages h3 {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.wrapper .stages .stages-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1100px;
+}
+
+.wrapper .stages .stages-columns p {
+  padding: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  color: #060606;
+}
+
+.wrapper .stages .stages-columns p span {
+  font-weight: bold;
+}
+
+@media all and (max-width: 1200px) {
+  .wrapper h2 {
+    font-size: 36px;
+  }
+  .wrapper .header {
+    width: 100%;
+    height: auto;
+  }
+  .wrapper .header .header-items {
+    width: 90%;
+    padding-bottom: 90px;
+  }
+  .wrapper .header .header-items .header-logo {
+    padding-top: 16px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 36px;
+  }
+  .wrapper .header .header-items .header-logo img {
+    margin-top: -16px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+  }
+  .wrapper .header .header-items h1 {
+    font-size: 36px;
+  }
+  .wrapper .header .header-items .reasons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapper .header .header-items .reasons .reason {
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .wrapper .header .header-items .header-btns {
+    margin: 0 auto;
+    width: 75%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrapper .header .header-items .header-btns .btn {
+    margin-bottom: 16px;
+  }
+  .wrapper .header .header-items .subscribe-item {
+    width: 70%;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 47px;
+  }
+  .wrapper .maraphon-scheme .day {
+    width: 80%;
+  }
+  .wrapper .maraphon-scheme .day .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .maraphon-scheme .day .day-header {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .maraphon-scheme .day .day-head.yellow {
+    width: 100%;
+  }
+  .wrapper .maraphon-scheme .day .day-head.purple {
+    width: 100%;
+  }
+  .wrapper .maraphon-scheme .day .day-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: auto;
+  }
+  .wrapper .maraphon-scheme .day .day-img img {
+    width: 40%;
+  }
+  .wrapper .getin-if .card-wrapper {
+    width: 80%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapper .getin-if .card-wrapper .card {
+    width: 300px;
+    margin: 10px;
+  }
+  .wrapper .getin-if .card-wrapper .card .card-content {
+    height: 520px;
+  }
+  .wrapper .getin-if .card-wrapper .card .card-content img {
+    width: 100%;
+  }
+  .wrapper .getin-if .card-wrapper .card .card-content .arrow {
+    width: 44px;
+    height: 30px;
+  }
+  .wrapper .getin-if .card-wrapper .card ul {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 90%;
+    list-style: url("/ezoterika/images/card-list-marker.png");
+  }
+  .wrapper .getin-if .card-wrapper .card ul p {
+    margin-bottom: 16px;
+  }
+  .wrapper .stages .stages-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .wrapper .stages h3 {
+    width: 80%;
+  }
+  .wrapper .stages .stages-columns {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .stages .stages-columns p {
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .wrapper h2 {
+    width: 80%;
+    font-size: 28px;
+    margin: 0 auto;
+  }
+  .wrapper .maraphon-scheme .day .day-content {
+    width: 90%;
+    padding-left: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
